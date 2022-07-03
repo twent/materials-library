@@ -1,0 +1,8 @@
+.list-group-item,
+.list-group-item:hover {
+    z-index: auto;
+}
+
+.modal-body {
+    text-align: left;
+}

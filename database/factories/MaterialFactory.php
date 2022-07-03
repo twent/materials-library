@@ -16,10 +16,11 @@ class MaterialFactory extends Factory
     public function definition()
     {
         return [
-            'type' => $this->faker->randomElement(MaterialType::values()),
+            'type' => $this->faker->randomElement(MaterialType::keys()),
             'category_id' => $this->faker->randomElement(Category::pluck('id')),
             'title' => $this->faker->realTextBetween(12, 34),
             'authors' => $this->faker->realTextBetween(23, 37),
+            'description' => $this->faker->realTextBetween(128, 512),
         ];
     }
 }

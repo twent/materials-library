@@ -14,6 +14,6 @@ class LinkSeeder extends Seeder
      */
     public function run()
     {
-        Link::factory(20)->create();
+        Link::factory(25)->create();
     }
 }

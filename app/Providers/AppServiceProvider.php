@@ -3,6 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Database\Eloquent\Relations\Relation;
+use Illuminate\Database\Query\Builder;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -24,7 +26,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        /* Pagination for Bootstrap */
+        Paginator::useBootstrap();
 
+        /* Morph mapping */
         Relation::enforceMorphMap([
             'category' => 'App\Models\Category',
             'tag' => 'App\Models\Tag',

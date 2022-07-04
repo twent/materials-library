@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\{CategoryController, HomeController, LinkController, MaterialController, TagController};
+use App\Http\Controllers\{CategoryController, LinkController, MaterialController, TagController};
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 

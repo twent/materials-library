@@ -6,7 +6,7 @@
 - PHP-7.4.30 FPM
 - PostgreSQL 14
 - Laravel 8
-- Пакеты (laravel/ui (Bootstrap), myclabs/php-enum, barryvdh/laravel-debugbar)
+- Пакеты (laravel/ui (Bootstrap), myclabs/php-enum, barryvdh/laravel-debugbar, nunomaduro/larastan, barryvdh/laravel-ide-helper)
 
 ## Как развернуть
 

@@ -13,10 +13,10 @@
 1) Клонировать данный репозиторий
 2) Выбрать `.env.development.example`или `.env.production.example` за основу
 3) `php artisan key:generate`
-4) `composer install --optimize-autoloader --no-dev`
+4) `composer install --optimize-autoloader`
 5) `yarn install`
 6) `yarn run prod`
-7) `sail up` или `docker-compose up`
+7) `./vendor/bin/sail up` или `docker-compose up`
 8) Внутри Докера выполнить `php artisan migrate --seed`
 9) Открыть приложение в браузере `http://localhost`, если всё в порядке, то идём дальше.
 10) `php artisan config:cache`

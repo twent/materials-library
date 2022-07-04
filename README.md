@@ -3,7 +3,7 @@
 Использовалось в разработке:
 
 - Docker-compose
-- PHP-7.4.30 FPM
+- PHP-7.4.30 FPM + XDebug (c ключом для IDE)
 - PostgreSQL 14
 - Laravel 8
 - Пакеты (laravel/ui (Bootstrap), myclabs/php-enum, barryvdh/laravel-debugbar, nunomaduro/larastan, barryvdh/laravel-ide-helper)

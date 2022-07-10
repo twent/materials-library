@@ -1,5 +1,7 @@
 ## Тестовое задание "Библиотека Материалов"
 
+![materials-library-index](https://user-images.githubusercontent.com/7511983/178134601-095cab3c-49ee-47cd-a54e-f28d9597b5af.jpg)
+
 Использовалось в разработке:
 
 - Docker-compose
@@ -12,8 +14,8 @@
 
 1) Клонировать данный репозиторий
 2) Выбрать `.env.development.example`или `.env.production.example` за основу
-3) `php artisan key:generate`
-4) `composer install --optimize-autoloader`
+3) `composer install --optimize-autoloader`
+4) `php artisan key:generate`
 5) `yarn install`
 6) `yarn run prod`
 7) `./vendor/bin/sail up` или `docker-compose up`
